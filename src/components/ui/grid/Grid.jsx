@@ -8,13 +8,13 @@ const MyGrid = styled.div`
   gap: 16px;
 `;
 
-const Cols2 = styled(MyGrid)`
-  grid-template-columns: repeat(2, 1fr);
-`;
+// const Cols2 = styled(MyGrid)`
+//   grid-template-columns: repeat(2, 1fr);
+// `;
 
-const Cols1 = styled(MyGrid)`
-  grid-template-columns: repeat(1, 1fr);
-`;
+// const Cols1 = styled(MyGrid)`
+//   grid-template-columns: repeat(1, 1fr);
+// `;
 
 // apjuosiantis elementas suteikiantis papildomu stiliaus ar funkciju dalyku
 function Grid(props) {
